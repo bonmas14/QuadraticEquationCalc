@@ -1,4 +1,6 @@
 # QuadraticEquationCalc
-New version of quadratic equation calc
-Totaly free 
-Without license
+New version of quadratic equation calc.
+
+Totaly free. 
+
+Without license.
