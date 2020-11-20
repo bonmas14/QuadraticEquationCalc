@@ -65,15 +65,15 @@ namespace QECalc
 
                     output += $"Два пересечения\n";
 
-                    double xPos1 = Math.Round((-b - discr) / (a * 2));
-                    double xPos2 = Math.Round((-b + discr) / (a * 2));
+                    double xPos2 = Math.Round((-b - discr) / (a * 2));
+                    double xPos1 = Math.Round((-b + discr) / (a * 2));
 
-                    output += $"x1 = (-b - D) / (a * 2) = {-b} - {discr} / ({a} * 2)";
-                    output += $"= {Math.Round(-b - discr, 2)} / {a * 2} = {xPos1}\n\n";
+                    output += $"x1 = (-b + D) / (a * 2) = ({-b} + {discr}) / ({a} * 2)";
+                    output += $"= {Math.Round(-b + discr, 2)} / {a * 2} = {xPos1}\n\n";
 
+                    output += $"x2 = (-b - D) / (a * 2) = {-b} - {discr} / ({a} * 2)";
+                    output += $"= {Math.Round(-b - discr, 2)} / {a * 2} = {xPos2}\n\n";
 
-                    output += $"x2 = (-b + D) / (a * 2) = ({-b} + {discr}) / ({a} * 2)";
-                    output += $"= {Math.Round(-b + discr, 2)} / {a * 2} = {xPos2}\n\n";
                 }
             }
             else
